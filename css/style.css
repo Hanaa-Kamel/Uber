@@ -1,0 +1,167 @@
+
+body{background-color: #fff}
+.container{width: 1170px;margin: auto;}
+
+/* start Header */
+
+.navbar{background-color: black;color: #ffffff;overflow: hidden;font-weight: bold;font-size: 18px}
+.navbar h2{float: right}
+.navbar ul{list-style: none;padding: 0;overflow: hidden;}
+.navbar ul li{float: left;padding: 10px;}
+a:link { color: white; text-decoration: none;}
+ .navbar .nav{float: right;}
+ .navbar ul li a:hover{color: blue}
+ .navbar ul li .final:hover{color: white}
+/* end Header */
+
+ /* start slider */
+
+.slider {height: 600px;overflow: hidden;}
+.slider .slideshow{float: left;width: 50%;height: 500px;padding: 0;margin: 0}
+
+.slider .slideshow img{width: 100%;}
+#slideimage{ height: 500px;
+padding: 0;
+margin: 0;}
+
+.slider .info 
+{
+    float: right;
+}
+.slider .info .header1 h1
+{
+    font-size: 60px;direction: rtl;padding-top: 35px;float: right;width: 400px;margin-top: 60px
+}
+.slider .info .buttom
+{
+    float: right; 
+    direction: rtl  ;
+    margin: 0;
+   
+}
+.slider .info .buttom h2{font-size: 30px;padding: 0;margin: 0;}
+.slider .info .buttom >span {height: 200px;margin-top: 30px;padding: 0;float: right;width: 250px}
+.slider .info .buttom >span p{padding: 0;width: 200px;margin-top: 30px}
+.slider .buttom a{color:#4d94ff ;display: block}
+.slider .buttom  button{background:none;width: 140px;height: 50px;margin-top: 20px;font-size: 20px;border: 1px solid #4d94ff;overflow: hidden;}
+#first{background-color: #4d94ff;color: white}
+#second{color: #4d94ff;width: 160px}
+
+ /* end slider */
+
+
+
+/*Start Map*/
+.map .hana {margin-top: 100px;background-image:url("../imags/map.png");height: 400px;width: 100%;clear: both;}
+.map .center {height: 150px;width: 800px;background-color: white;float: right;margin-top: 100px;overflow: hidden;}
+.map .center a {margin-top:31px;font-size: 50px;float: right;color: black}
+.map .center >a:hover{color: #4d94ff}
+.map .center a >span{padding-right: 100px;font-size: 25px;margin: 12px;color: #4d94ff;}
+.map .center .arrow >a{margin-top: 40px;font-size: 50px ;margin-right: 40px}
+/*.map .center .arrow >a :hover{color: #4d94ff;margin-left:70px;}*/
+/*End Map*/
+
+
+/* Start Paragraph*/
+.Para .sentence {padding-top: 150px;font-size: 50px;float: right;}
+
+/* End Paragraph*/
+
+
+/* Start Images */
+.menu .menulist{float: left;margin-top: 100px;direction: rtl;}
+.menu .menulist >p{float: right;direction: ltr;}
+.menu .menulist >a{color: #4d94ff;font-size: 20px;}
+/*End Image */
+
+
+/*Start Center */
+.center1{padding: 100px}
+.center1 span{float: left;margin-top: 0px;direction: rtl;}
+.center1 .secondd >p{padding: 20px 0 20px 20px;}
+.center1 .secondd >a{color: dodgerblue;font-size: 20px;}
+/*End Center */
+
+
+/*Start phone*/
+
+
+.phone .telephone {margin-top: 100px;height: 400px;width: 100%;clear: both;background-color: gainsboro}
+.phone .app {height: 230px;width: 800px;background-color: gainsboro;float: right;margin-top: 100px;overflow: hidden;direction: rtl;padding-right: 20px}
+.phone .app a {direction: rtl;font-size: 20px;color: dodgerblue}
+.phone .app a:hover{text-decoration-line: underline}
+
+/*Start phone*/
+
+/* Icons */
+.icons{margin-top: 100px}
+.icons .move{padding-left: 20%}
+.icons .icon1{float: left;height: 300px;direction: rtl;padding-left: 30px;margin-left: 20px}
+.icons .icon1 a{color :dodgerblue ;font-size: 20px}
+.icons .link {font-size: 50px;direction: rtl}
+/*  end Icons */
+
+/*start Footer*/
+.footer {margin-top: 50px;background-color: black;color: white;height: 700px;direction: rtl;padding: 50px}
+.footer a{color: white}
+.footer .endpar  p{float: left;}
+.footer .endhead,
+.footer .endpar{width: 50%;float: left;}
+.footer .list1 ul,
+.footer .list2 ul{list-style: none;float: left;padding: 50px}
+.footer .list1 ul li{font-size: 20px}
+.footer .list2 ul li{font-size: 20px}
+.footer .imagebuttom{float: left;}
+.footer .left{padding: 50px;float: right;}
+.footer .left >span{float: left;}
+.footer .left  ul{list-style: none;}
+.footer .left  ul li{padding-right: 10px;font-size: 20px}
+.footer .left  ul li >i{padding-left: 10px}
+
+.footer .endfooter{padding-left: 5%}
+.footer .endfooter ul {list-style: none;margin-left: 50px;}
+.footer .endfooter ul li{float: left;padding: 20px;font-size: 20px}
+
+
+/*end Footer*/
+#ar
+{
+    margin-left:150px;
+width:100px;
+height:100px;
+background:white;
+position:relative;
+}
+#ar:hover
+{
+/*animation-direction:reverse;*/
+animation:myfirst 5s;
+
+
+
+-moz-animation:myfirst 5s; /* Firefox */
+-webkit-animation:myfirst 5s; /* Safari and Chrome */
+-o-animation:myfirst 5s; /* Opera */
+}
+
+@keyframes myfirst
+{
+0%   {background:transparent; right:0px; top:0px;}
+25%  {background:transparent; right:90px; top:00px;}
+
+}
+
+.center a span :hover{
+    color: rgb(24, 43, 43);
+}
+
+
+
+
+
+
+
+
+
+
+
